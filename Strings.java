@@ -42,8 +42,6 @@ public class Strings {
         // StringBuilder is similar to StringBuffer
         // Difference: StringBuffer is thread-safe, StringBuilder is NOT thread-safe
 // Both are mutable
-
-
         StringBuilder str1 = new StringBuilder("omkar");
         System.out.println(str1.capacity());
         str1.append("chinnam");
